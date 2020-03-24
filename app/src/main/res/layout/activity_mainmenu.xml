@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu"
+    tools:context=".mainmenu">
+
+    <ImageView
+        android:id="@+id/whatiscovidId"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="245dp"
+        app:srcCompat="@drawable/whatiscovid" />
+
+    <ImageView
+        android:id="@+id/symptomsId"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="305dp"
+        app:srcCompat="@drawable/symptoms" />
+
+    <ImageView
+        android:id="@+id/preventionId"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="365dp"
+        app:srcCompat="@drawable/prevention" />
+
+    <ImageView
+        android:id="@+id/treatmentsId"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="425dp"
+        app:srcCompat="@drawable/treatments" />
+
+    <ImageView
+        android:id="@+id/testyourselfId"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="485dp"
+        app:srcCompat="@drawable/testyourself" />
+
+    <ImageView
+        android:id="@+id/exitId"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="545dp"
+        app:srcCompat="@drawable/exit" />
+</RelativeLayout>
